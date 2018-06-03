@@ -1,6 +1,6 @@
 <h1>Proyecto Trivia Mejorada</h1>
 <em>Brenda Sánchez y Karen</em>
-<em></em>
+<blockquote></blockquote>
 <ul>
 	<li>Pedir nombre usuario</li>
 	<li>Pintar nombre</li>
