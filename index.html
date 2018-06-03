@@ -1,0 +1,58 @@
+<!-- Reto Trivia Laboratoria / Pre-admisión -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Reto</title>
+</head>
+<body>
+	<h1>Trivia &lt; Laboratoria ></h1>
+	<h2 id="welcome-name">Bienvenid@ </h2>
+	<span>¿Cuál es tu nombre? </span><input type="text" id="user-name">
+	<button onclick="getName()">Enviar</button>
+	<div id="start" class="hidden">
+		<p>Quieres jugar?</p>
+		<span>a)Si</span>
+		<span>b)No</span><br>
+		<input type="text" id="option-game">
+		<button type="button" onclick="game()">Enviar</button>
+		<h2 id="no-game"></h2>
+	</div>
+
+	<div id="box" class="hidden">
+		<div id="question-one" class="box-border">
+			<h3> PREGUNTA 1</h3>
+			<p>¿Cuál es la edad mínima para postular a Laboratoria?</p>
+			<p>a)18 años</p>
+			<p>b)15 años</p>
+			<p>c)24 años</p>
+			<p id="result1" class="results"></p>
+			<input type="text" id="ans1">
+			<button type="button" onclick="answer1()">Validar</button>
+		</div>
+		<div id="question-two" class="box-border">
+			<h3> PREGUNTA 2</h3>
+				<p>¿En cuántos países tiene presencia Laboratoria?</p>
+				<p>a)4 países</p>
+				<p>b)5 países</p>
+				<p>c)2 países</p>
+				<p id="result2" class="results"></p>
+				<input type="text" id="ans2">
+				<button type="button" onclick="answer2()">Validar</button>
+		</div>
+	  <div id="question-three" class="box-border">
+			<h3> PREGUNTA 3</h3>
+			<p>¿Cuántos meses dura el bootcamp de Laboratoria?</p>
+			<p>a)16 meses</p>
+			<p>b)7 meses</p>
+			<p>c)6 meses</p>
+			<p id="result3" class="results"></p>
+			<input type="text" id="ans3">
+			<button type="button" onclick="answer3()">Validar</button>
+		</div>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+</html>
