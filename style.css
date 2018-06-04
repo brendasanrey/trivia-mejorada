@@ -33,7 +33,7 @@ input{
 }
 
 .hidden{
-	visibility: hidden;
+	display: none;
 }
 
 .results{
@@ -57,7 +57,13 @@ button:hover{
 	padding: 20px 10px;
 	width: 50%;
 	margin-left: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
 }
+
+.finalResults{
+	text-align: center;
+	margin: 0px;
+}
+

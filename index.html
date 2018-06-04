@@ -7,8 +7,10 @@
 	<title>Reto</title>
 </head>
 <body>
-	<h1>Trivia &lt; Laboratoria ></h1>
-	<h2 id="welcome-name">Bienvenid@ </h2>
+	<header>
+		<h1>Trivia &lt; Laboratoria ></h1>
+		<h2 id="welcome-name">Bienvenid@ </h2>
+	</header>
 	<span>¿Cuál es tu nombre? </span><input type="text" id="user-name">
 	<button onclick="getName()">Enviar</button>
 	<div id="start" class="hidden">
@@ -51,6 +53,11 @@
 			<input type="text" id="ans3">
 			<button type="button" onclick="answer3()">Validar</button>
 		</div>
+	</div>
+	<div id="results-box" class="hidden">
+		<h3>Resultados</h3>
+		<p class="finalResults" id="right-answers">Respuestas correctas: </p>
+		<p class="finalResults" id="wrong-answers">Respuestas incorrectas: </p>
 	</div>
 
 	<script src="main.js"></script>
