@@ -6,7 +6,7 @@
 	<li>Pintar nombre</li>
 	<li>Preguntar si quiere jugar</li>
 	<ul>
-		<li>Si quiere jugar lanzamos Preguntar</li>
+		<li>Si quiere jugar lanzamos las preguntas</li>
 		<li>Si no quiere jugar lanzamos mensaje de 'vuelve cuando quieras jugar'</li>
 	</ul>
 	<li>Lanzar preguntas</li>
