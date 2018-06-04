@@ -1,5 +1,5 @@
 <h1>Proyecto Trivia Mejorada</h1>
-<em>Brenda Sánchez y Karen</em>
+<em>Brenda Sánchez y Karen Ramirez</em>
 <blockquote></blockquote>
 <ul>
 	<li>Pedir nombre usuario</li>
